@@ -3,5 +3,6 @@ WORKDIR /yeebot
 ADD . /yeebot
 ENV TZ=America/Los_Angeles
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN touch /yeebot/auth.js && mkdir /yeebot/db
 RUN npm install
 CMD ["node", "bot.js"]
