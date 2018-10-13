@@ -63,3 +63,5 @@ typings/
 db
 db/*
 auth.json
+node_modules
+node_modules/*

@@ -8,10 +8,10 @@
   "author": "Jason Prickett",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
     "node-opus": "^0.2.7",
     "sqlite3": "^4.0.2",
-    "ytdl-core": "^0.26.1"
+    "ytdl-core": "^0.26.1",
+    "discord.js": "^11.4.2"
   },
   "devDependencies": {},
   "description": ""
