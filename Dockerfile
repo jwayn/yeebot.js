@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8.12.0
 WORKDIR /yeebot
 ADD . /yeebot
 ENV TZ=America/Los_Angeles
